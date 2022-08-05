@@ -4,15 +4,20 @@
 /* eslint-disable react/jsx-props-no-spreading */
 import { React, useState } from 'react';
 import Slider from 'react-slick';
-import Games from '../../images/Games-store.png';
-import Book from '../../images/Book-store.png';
-import Maths from '../../images/Maths.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowCircleLeft, faArrowCircleRight } from '@fortawesome/free-solid-svg-icons';
+// import Games from '../../images/Games-store.png';
+import Gamesproject from '../Projecttwo';
+import Bookproject from '../Projectthree';
+import Mathproject from '../Project';
+// import Book from '../../images/Book-store.png';
+// import Maths from '../../images/Maths.png';
 import '../../CSS/portfolio.css';
 
-const images = [Games, Book, Maths];
+// const images = [Gamesproject, Book, Maths];
 
 const Portfolio = () => {
-  const [imageIndex, setImageIndex] = useState(0);
+  const [, setImageIndex] = useState(0);
 
   const settings = {
     infinite: true,
@@ -25,11 +30,26 @@ const Portfolio = () => {
   };
   return (
     <div className="slides">
+      <div>
+        <FontAwesomeIcon icon={faArrowCircleLeft} />
+      </div>
       <Slider {...settings}>
-        {images.map((img, index) => (
-          <div className={index === imageIndex ? 'slide activeSlide' : 'slide'}><img src={img} alt={img} /></div>
-        ))}
+        {/* {images.map((img, index) => (
+          <div className={index === imageIndex ? 'slide activeSlide' : 'slide'}>{img}</div>
+        ))} */}
+        <div>
+          <Mathproject />
+        </div>
+        <div>
+          <Gamesproject />
+        </div>
+        <div>
+          <Bookproject />
+        </div>
       </Slider>
+      <span>
+        <FontAwesomeIcon icon={faArrowCircleRight} />
+      </span>
     </div>
   );
 };

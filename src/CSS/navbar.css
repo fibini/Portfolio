@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navlinks {
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.li-navh {
+    display: none;
+}
+
+.li-nav {
+    list-style: none;
+    
+}
+
+.li-nav:hover {
+    display: none;
+}
+
+.li-nav:hover+.li-navh {
+    display: block;
+}

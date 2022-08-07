@@ -3,18 +3,21 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faLinkedin, faGithub, faTwitter, faAngellist, faMedium,
 } from '@fortawesome/free-brands-svg-icons';
+import '../../CSS/about.css';
 
 const About = () => (
   <div>
     <section>
-      <h1>FABIEN</h1>
-      <h2>SOFTWARE DEVELOPER</h2>
+      <div className="head-container">
+        <h1>FABIEN</h1>
+        <h2>SOFTWARE DEVELOPER</h2>
+      </div>
       <p>
         I can help you build a product ,feature or
         website Look through some of my work and experience!
         If you like what you see and have a project you need coded, don’t hestiate to contact me.
       </p>
-      <div>
+      <div className="skills-container">
         <div>
           <h4>LANGUAGES</h4>
           <ul>

@@ -1,12 +1,13 @@
 import React from 'react';
+import '../../CSS/home.css';
 
 const Home = () => (
-  <heading>
+  <div className="home-container">
     <h1>WELCOME</h1>
     <h2>TO</h2>
     <h2>MY</h2>
     <h2>PORTFOLIO</h2>
-  </heading>
+  </div>
 );
 
 export default Home;

@@ -13,9 +13,13 @@ const NavigationBar = () => (
           HOME
         </NavLink>
       </li>
+      <li className="li-nav2 page"><NavLink to="/projects">PAGE</NavLink></li>
       <li className="li-nav"><NavLink to="/projects">PORTFOLIO</NavLink></li>
+      <li className="li-nav2 project"><NavLink to="/projects">PROJECTS</NavLink></li>
       <li className="li-nav"><NavLink to="/about">ABOUT</NavLink></li>
+      <li className="li-nav2 me"><NavLink to="/about">ME</NavLink></li>
       <li className="li-nav"><NavLink to="/contact">CONTACT</NavLink></li>
+      <li className="li-nav2 fabien"><NavLink to="/contact">FABIEN</NavLink></li>
     </ul>
   </nav>
 );

@@ -10,6 +10,12 @@
     ;
 }
 
+.socials-container {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
 p {
     text-align: center;
 }

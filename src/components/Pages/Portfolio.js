@@ -34,9 +34,6 @@ const Portfolio = () => {
         <FontAwesomeIcon icon={faArrowCircleLeft} />
       </div>
       <Slider {...settings}>
-        {/* {images.map((img, index) => (
-          <div className={index === imageIndex ? 'slide activeSlide' : 'slide'}>{img}</div>
-        ))} */}
         <div>
           <Mathproject />
         </div>

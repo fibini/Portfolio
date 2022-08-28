@@ -13,7 +13,7 @@ const NavigationBar = () => (
           HOME
         </NavLink>
       </li>
-      <li className="li-nav2 page"><NavLink to="/projects">PAGE</NavLink></li>
+      <li className="li-nav2 page"><NavLink to="/">PAGE</NavLink></li>
       <li className="li-nav"><NavLink to="/projects">PORTFOLIO</NavLink></li>
       <li className="li-nav2 project"><NavLink to="/projects">PROJECTS</NavLink></li>
       <li className="li-nav"><NavLink to="/about">ABOUT</NavLink></li>

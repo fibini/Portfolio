@@ -4,8 +4,8 @@
 /* eslint-disable react/jsx-props-no-spreading */
 import { React, useState } from 'react';
 import Slider from 'react-slick';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowCircleLeft, faArrowCircleRight } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faArrowCircleLeft, faArrowCircleRight } from '@fortawesome/free-solid-svg-icons';
 // import Games from '../../images/Games-store.png';
 import Gamesproject from '../Projecttwo';
 import Bookproject from '../Projectthree';
@@ -31,7 +31,7 @@ const Portfolio = () => {
   return (
     <div className="slides">
       <div>
-        <FontAwesomeIcon icon={faArrowCircleLeft} />
+        {/* <FontAwesomeIcon icon={faArrowCircleLeft} /> */}
       </div>
       <Slider {...settings}>
         <div>
@@ -45,7 +45,7 @@ const Portfolio = () => {
         </div>
       </Slider>
       <span>
-        <FontAwesomeIcon icon={faArrowCircleRight} />
+        {/* <FontAwesomeIcon icon={faArrowCircleRight} /> */}
       </span>
     </div>
   );

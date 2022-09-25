@@ -19,7 +19,7 @@ const NavigationBar = () => (
       <li className="li-nav"><NavLink to="/about">ABOUT</NavLink></li>
       <li className="li-nav2 me"><NavLink to="/about">ME</NavLink></li>
       <li className="li-nav"><NavLink to="/contact">CONTACT</NavLink></li>
-      <li className="li-nav2 fabien"><NavLink to="/contact">FABIEN</NavLink></li>
+      <li className="li-nav2 fabien"><NavLink to="/contact">INFO</NavLink></li>
     </ul>
   </nav>
 );

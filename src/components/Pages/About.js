@@ -12,7 +12,7 @@ import '../../CSS/about.css';
 
 const About = () => (
   <div>
-    <section>
+    <section className="about-container">
       <div className="head-container">
         <h1>FABIEN</h1>
         <h2>SOFTWARE DEVELOPER</h2>
@@ -24,7 +24,7 @@ const About = () => (
       </p>
       <div className="skills-container">
         <div>
-          <h4>LANGUAGES</h4>
+          <h4 className="skills-heading">LANGUAGES</h4>
           <ul>
             <li>JAVASCRIPT</li>
             <li>RUBY</li>
@@ -33,7 +33,7 @@ const About = () => (
           </ul>
         </div>
         <div>
-          <h4>FRAMEWORKS</h4>
+          <h4 className="skills-heading">FRAMEWORKS</h4>
           <ul>
             <li>RUBY ON RAILS</li>
             <li>BOOTSTRAP</li>
@@ -43,7 +43,7 @@ const About = () => (
           </ul>
         </div>
         <div>
-          <h4>SKILLS</h4>
+          <h4 className="skills-heading">SKILLS</h4>
           <ul>
             <li>CODEKIT</li>
             <li>CODEPEN</li>

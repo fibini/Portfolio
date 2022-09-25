@@ -3,3 +3,28 @@
     flex-direction: column;
     align-content: center;
 }
+
+.welcome {
+    text-align: center;
+    font-size: 50px;
+}
+
+.to {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+}
+
+.my {
+    width: 50%;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    font-size: 35px;
+}
+
+.portfolio {
+    text-align: center;
+    font-size: 50px;
+}

@@ -1,3 +1,7 @@
+.about-container {
+    margin-top: 3rem;
+}
+
 .head-container {
     display: flex;
     flex-direction: column;
@@ -8,6 +12,10 @@
     display: flex;
     justify-content: center
     ;
+}
+
+.skills-heading {
+    text-align: center;
 }
 
 .socials-container {

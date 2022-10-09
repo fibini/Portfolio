@@ -1,0 +1,58 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.logo {
+  color: white;
+}
+
+.navlinks {
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.li-nav {
+  animation: fade-in-out ease-out 20s;
+  animation-iteration-count: infinite;
+  list-style: none;
+}
+
+@keyframes fade-in-out {
+  0%,
+  30%,
+  100% { opacity: 0; }
+  60% { opacity: 1; }
+}
+
+.li-nav2 {
+  position: fixed;
+  animation: fade-in-out ease-out 20s;
+  animation-iteration-count: infinite;
+  animation-delay: 10s;
+  list-style: none;
+}
+
+@keyframes fade-in-out {
+  0%,
+  90%,
+  100% { opacity: 1; }
+
+  30%,
+  50% { opacity: 0; }
+}
+
+.project {
+  margin-left: 4.5rem;
+}
+
+.me {
+  margin-left: 11.5rem;
+}
+
+.fabien {
+  margin-left: 15.5rem;
+}

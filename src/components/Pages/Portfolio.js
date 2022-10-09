@@ -4,17 +4,13 @@
 /* eslint-disable react/jsx-props-no-spreading */
 import { React, useState } from 'react';
 import Slider from 'react-slick';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faArrowCircleLeft, faArrowCircleRight } from '@fortawesome/free-solid-svg-icons';
-// import Games from '../../images/Games-store.png';
 import Gamesproject from '../Projecttwo';
 import Bookproject from '../Projectthree';
 import Mathproject from '../Project';
-// import Book from '../../images/Book-store.png';
-// import Maths from '../../images/Maths.png';
 import '../../CSS/portfolio.css';
-
-// const images = [Gamesproject, Book, Maths];
+import Leaderboard from '../Projectfour';
+import Spotitfy from '../Projectfive';
+import SpaceTravelers from '../Projectsix';
 
 const Portfolio = () => {
   const [, setImageIndex] = useState(0);
@@ -42,6 +38,15 @@ const Portfolio = () => {
         </div>
         <div>
           <Bookproject />
+        </div>
+        <div>
+          <Leaderboard />
+        </div>
+        <div>
+          <Spotitfy />
+        </div>
+        <div>
+          <SpaceTravelers />
         </div>
       </Slider>
       <span>

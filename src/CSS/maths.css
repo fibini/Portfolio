@@ -1,15 +1,14 @@
 .maths {
-    height: 400px;
-    width: 100%;
+  height: 400px;
+  width: 100%;
 }
 
-
 .games-project {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .games {
-    height: 400px;
+  height: 400px;
 }

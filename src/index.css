@@ -28,6 +28,10 @@ code {
     monospace;
 }
 
-a,p,h1,h2,h4 {
+a,
+p,
+h1,
+h2,
+h4 {
   color: white;
 }

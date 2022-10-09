@@ -2,26 +2,23 @@
 @import "~slick-carousel/slick/slick-theme.css";
 
 .slides {
-    width: 50%;
-    margin: 10rem auto;
-    height: 400px;
+  width: 50%;
+  margin: 10rem auto;
+  height: 400px;
 }
 
-
-
 .slide img {
-    width: 400px;
-    margin: 0 auto;
+  width: 400px;
+  margin: 0 auto;
 }
 
 .slide {
-    transform: scale(0.3);
-    transition: transform 300ms;
-    opacity: .5;
+  transform: scale(0.3);
+  transition: transform 300ms;
+  opacity: 0.5;
 }
 
 .activeSlide {
-    transform: scale(2);
-    opacity: 1;
-
+  transform: scale(2);
+  opacity: 1;
 }

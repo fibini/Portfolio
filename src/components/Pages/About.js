@@ -27,6 +27,7 @@ const About = () => (
           <h4 className="skills-heading">LANGUAGES</h4>
           <ul>
             <li>JAVASCRIPT</li>
+            <li>React</li>
             <li>RUBY</li>
             <li>HTML</li>
             <li>CSS</li>

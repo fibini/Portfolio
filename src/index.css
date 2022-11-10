@@ -14,7 +14,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(black, orange);
+  background-image: url(http://unblast.com/wp-content/uploads/2021/01/Space-Background-Image-2.jpg);
+  background-repeat: no-repeat;
   height: 100vh;
 }
 

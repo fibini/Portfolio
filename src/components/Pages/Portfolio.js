@@ -25,34 +25,38 @@ const Portfolio = () => {
     beforeChange: (current, next) => setImageIndex(next),
   };
   return (
-    <div className="slides">
-      <div>
-        {/* <FontAwesomeIcon icon={faArrowCircleLeft} /> */}
+    <>
+      <img src="https://wallpaperaccess.com/full/1683478.jpg" alt="space" className="bgimg" />
+      <div className="slides">
+        <div>
+          {/* <FontAwesomeIcon icon={faArrowCircleLeft} /> */}
+        </div>
+        <Slider {...settings}>
+          <div>
+            <Mathproject />
+          </div>
+          <div>
+            <Gamesproject />
+          </div>
+          <div>
+            <Bookproject />
+          </div>
+          <div>
+            <Leaderboard />
+          </div>
+          <div>
+            <Spotitfy />
+          </div>
+          <div>
+            <SpaceTravelers />
+          </div>
+        </Slider>
+        <span>
+          {/* <FontAwesomeIcon icon={faArrowCircleRight} /> */}
+        </span>
       </div>
-      <Slider {...settings}>
-        <div>
-          <Mathproject />
-        </div>
-        <div>
-          <Gamesproject />
-        </div>
-        <div>
-          <Bookproject />
-        </div>
-        <div>
-          <Leaderboard />
-        </div>
-        <div>
-          <Spotitfy />
-        </div>
-        <div>
-          <SpaceTravelers />
-        </div>
-      </Slider>
-      <span>
-        {/* <FontAwesomeIcon icon={faArrowCircleRight} /> */}
-      </span>
-    </div>
+
+    </>
   );
 };
 

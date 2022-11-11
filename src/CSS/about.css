@@ -1,7 +1,3 @@
-.about-container {
-  margin-top: 3rem;
-}
-
 .head-container {
   display: flex;
   flex-direction: column;
@@ -11,10 +7,13 @@
 .skills-container {
   display: flex;
   justify-content: center;
+  font-size: larger;
+  color: white;
 }
 
 .skills-heading {
   text-align: center;
+  color: white;
 }
 
 .socials-container {

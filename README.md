@@ -13,7 +13,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://jade-taiyaki-9fa066.netlify.app/)
 
 
 ## Getting Started
